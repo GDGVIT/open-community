@@ -11,12 +11,17 @@
   .first-page p {
     padding-right: 100px;
     padding-left: 100px; }
+  @media (max-width: 600px) {
+    .first-page img {
+      width: 100%; }
+    .first-page p {
+      padding: 10px; } }
 
 p {
   font-weight: 400; }
 
-h2 {
-  font-weight: 300; }
+h1 {
+  font-weight: 100 !important; }
 
 .second-page {
   background: url("images/android.jpg");
@@ -30,7 +35,7 @@ h2 {
     height: 100vh;
     background: rgba(0, 0, 0, 0.7);
     text-align: center; }
-    .second-page .overlay h2 {
+    .second-page .overlay h1 {
       padding-top: 100px; }
     .second-page .overlay p {
       padding-right: 100px;
@@ -39,6 +44,14 @@ h2 {
       text-align: left;
       width: 33%;
       padding-left: 33%; }
+    @media (max-width: 600px) {
+      .second-page .overlay h1 {
+        padding: 10px; }
+      .second-page .overlay p {
+        padding: 10px; }
+      .second-page .overlay ul {
+        padding: 10px;
+        width: 90%; } }
 
 .third-page {
   text-align: center; }
@@ -66,5 +79,13 @@ h2 {
       width: 33%;
       padding-left: 33%;
       text-align: left; }
+    @media (max-width: 600px) {
+      .forth-page .overlay h1 {
+        padding: 10px; }
+      .forth-page .overlay p {
+        padding: 10px; }
+      .forth-page .overlay ul {
+        padding: 10px;
+        width: 90%; } }
 
 /*# sourceMappingURL=style.css.map */
