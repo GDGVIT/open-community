@@ -38,13 +38,27 @@
   text-align: center; }
 
 .forth-page {
-  text-align: center; }
-  .forth-page p {
-    padding-left: 100px;
-    padding-right: 100px; }
-  .forth-page ul {
-    width: 33%;
-    padding-left: 33%;
-    text-align: left; }
+  background: url("images/team.jpg");
+  background-size: cover;
+  text-align: center;
+  color: #fff; }
+  .forth-page .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1; }
+    .forth-page .overlay h2 {
+      padding-top: 200px; }
+    .forth-page .overlay p {
+      padding-left: 100px;
+      padding-right: 100px;
+      z-index: 2; }
+    .forth-page .overlay ul {
+      width: 33%;
+      padding-left: 33%;
+      text-align: left; }
 
 /*# sourceMappingURL=style.css.map */

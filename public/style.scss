@@ -47,14 +47,30 @@
 }
 
 .forth-page{
+    background: url('images/team.jpg');
+    background-size: cover;
     text-align: center;
-    p{
+    color: #fff;
+    .overlay{
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.7);
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 1;
+        h2{
+            padding-top: 200px;
+        }
+        p{
         padding-left: 100px;
         padding-right: 100px;
-    }
-    ul{
-        width: 33%;
-        padding-left: 33%;
-        text-align: left;
+        z-index: 2;
+        }
+        ul{
+            width: 33%;
+            padding-left: 33%;
+            text-align: left;
+        }
     }
 }
