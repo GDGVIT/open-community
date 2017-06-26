@@ -12,6 +12,12 @@
     padding-right: 100px;
     padding-left: 100px; }
 
+p {
+  font-weight: 400; }
+
+h2 {
+  font-weight: 300; }
+
 .second-page {
   background: url("images/android.jpg");
   background-size: cover;
