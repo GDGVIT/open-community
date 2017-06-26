@@ -1,0 +1,60 @@
+*{
+    font-family: Roboto;
+}
+.first-page{
+    background:url('images/hero.jpg');
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    img{
+        width: 50%;
+    }
+    p{
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+}
+
+.second-page{
+    background: url('images/android.jpg');
+    background-size: cover;
+    color: #fff;
+    .overlay{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100vh;
+        background:rgba(0,0,0,0.7);
+        text-align: center;
+        h2{
+            padding-top: 100px;
+        }    
+        p{
+            padding-right: 100px;
+            padding-left: 100px;
+        }
+        ul{
+            text-align: left;
+            width: 33%;
+            padding-left: 33%;
+        }
+    }
+}
+
+.third-page{
+    text-align: center;
+}
+
+.forth-page{
+    text-align: center;
+    p{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    ul{
+        width: 33%;
+        padding-left: 33%;
+        text-align: left;
+    }
+}
